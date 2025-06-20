@@ -1,0 +1,17 @@
+﻿@charset "UTF-8";
+
+  .load-wrap {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  height: 100%;
+  background-color: #fff;
+  text-align: center; }
+  .load-wrap .wheel-load {
+    display: block;
+    padding: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
